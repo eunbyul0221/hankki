@@ -25,3 +25,14 @@ spring:
       ddl-auto: create
       naming: 
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+hankki:
+  routes:
+    material:
+      url: http://localhost:8081
+#      url: http://hankki-material:8081
+    myrecipe:
+      url: http://localhost:8082
+#      url: http://hankki-myrecipe:8082
+    recipe:
+      url: http://localhost:8083
+#      url: http://hankki-recipe:8083
