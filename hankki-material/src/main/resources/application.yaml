@@ -14,6 +14,9 @@ spring:
     url: jdbc:h2:mem:hankkimaterials
     driverClassName: org.h2.Driver
     data: classpath:sql/data-H2.sql
+#  thymeleaf:
+#    cache: false
+#    mode: LEGACYHTML5
   h2:
     console:
       enabled: true
